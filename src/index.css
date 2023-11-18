@@ -1,0 +1,99 @@
+:root{
+  --vilot-color:#7C54A2;
+  --red-color:#EA0140;
+  --blue-color:#3B3B98;
+  --green-color:#4CAF50;
+}
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: local("Montserrat"), url("../public/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Manrope";
+	src: local("Manrope"), url("../public/fonts/Manrope/Manrope-VariableFont_wght.ttf") format("truetype");
+}
+
+
+h1{
+  font-family: 'Montserrat';
+  font-size:37px;
+  line-height: 40px;
+  font-weight: 800;
+  color:var(--blue-color);
+}
+
+h2{
+  color:var(--blue-color);
+  font-family: "Manrope";
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 40px; 
+  text-align: center;
+}
+
+h3{
+color: var(--blue-color);
+text-align: center;
+font-family: 'Montserrat';
+font-size: 18px;
+font-weight: 700;
+line-height: 22.457px; 
+}
+
+.pfs-1{
+  color: #3E3E3E;
+  font-family: 'Manrope';
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16.843px; 
+}
+
+.pfs-2{
+  color:#0D2441;
+  font-size:13px;
+  font-family: 'Manrope';
+  font-weight: 600;
+  line-height: 19px;
+}
+
+
+.btn{
+  width: 124px;
+  height: 38px;
+  border-radius: 5px;
+  border:none;
+}
+.btn-small{
+  width: 101px;
+  height: 27.441px;
+  border-radius:5px;
+  border:none;
+}
+
+button{
+    color: #FFF;
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 700;
+}
+
+section{
+  width:100%;
+  padding:60px 0px;
+  overflow:hidden;
+}
+.section-wrapper{
+  max-width:min(1080px,100%);
+  margin:auto;
+}
+
+ul{
+  list-style-type:none ;
+}

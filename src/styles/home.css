@@ -1,0 +1,258 @@
+.home .section-wrapper {
+  display: flex;
+}
+
+.home .content {
+  min-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home .content h1 {
+  margin-bottom: 20px;
+}
+
+.home .image-container {
+  min-width: 55%;
+  position: relative;
+}
+.home .image-container img {
+  margin-left: 45px;
+}
+
+.home .content li {
+  color: var(--blue-color);
+  font-family: "Manrope";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.843px;
+  padding-left: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+.home .content li::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background: var(--red-color);
+  left: 0;
+  top: 5px;
+}
+.home .content li span {
+  color: var(--red-color);
+  font-weight: 800;
+}
+.home .content button {
+  margin: 30px 20px 0px 0px;
+}
+.home .content button:nth-child(1) {
+  background: var(--blue-color);
+}
+.home .content button:nth-child(2) {
+  background: var(--red-color);
+}
+
+/* css for the company logos  */
+
+.companies {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+.companies img {
+  height: 51px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+/* css for the trusted companies  */
+.trusted-companies h2 {
+  position: relative;
+}
+.trusted-companies h2::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 200px;
+  height: 3px;
+  background: rgba(61, 81, 116, 0.737);
+}
+.trusted-companies .client-wrapper {
+  height: 132px;
+  margin-top: 80px;
+}
+
+.trusted-companies .client-wrapper img {
+  height: 50%;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+/* css for the support and engagement section  */
+.support-section .support-images-container {
+  display: flex;
+}
+.support-section .support-images-container img {
+  width: 100%;
+  margin-top: 72px;
+}
+
+/* css for the choose section  */
+
+.choose {
+  margin-top:200px;
+  padding: 150px 0px;
+  position: relative;
+  overflow: visible;
+}
+.choose::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.3;
+  background: radial-gradient(
+    117.97% 104.26% at -1.03% 2.31%,
+    #ffc107 0%,
+    #ffe082 39.18%,
+    #ffe082 94.2%
+  );
+  filter: blur(34px);
+  z-index: 0;
+}
+.choose .section-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.choose .section-wrapper .cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+}
+
+/* css for the integrate section  */
+.integrate {
+  padding: 80px 0px;
+}
+.integrate .integrate-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+  text-align: center;
+}
+.integrate .integrate-box img {
+  height: 85px;
+  object-fit: contain;
+}
+.integrate p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 800;
+  color: var(--vilot-color);
+}
+
+/* css for the connections */
+
+.connections{
+  margin-top:200px;
+  position: relative;
+  padding:100px 0px;
+}
+.connections::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height:100%;
+  top:0;
+  right:0;
+  background: rgba(59, 59, 152, 0.21);
+  filter: blur(20.5px);
+  z-index: 0;
+}
+
+.connections .section-wrapper{
+  overflow: visible;
+  position: relative;
+  z-index: 1;
+}
+
+.connections .content-box {
+  border-radius: 32.388px;
+  background: linear-gradient(
+    290deg,
+    #3b3b98 13.81%,
+    rgba(59, 59, 152, 0.5) 79.67%
+  );
+  padding:20px;
+  max-width: 440px;
+  min-width: 400px;
+  height:215px;
+}
+.connections .section-wrapper{
+  display: flex;
+  align-items: center;
+  max-width:min(1280px,100%);
+}
+.connections .content-box h4 {
+  color: #fff;
+  font-family: 'Manrope';
+  font-size: 22.865px;
+  font-weight: 800;
+  line-height: 30.487px; 
+}
+.connections .content-box button{
+  border-radius: 3.811px;
+  background: #F5C03C;
+}
+.connections .content-box{
+  overflow: visible;
+}
+.connections .icons-wrapper{
+  overflow: visible;
+}
+.connections .social-media-icons{
+  display: flex;
+  margin-left:90px;
+  overflow: visible;
+}
+.connections .social-media-icons li{
+  margin-left:22px;
+}
+.connections button{
+  margin-top:20px;
+  color:black;
+}
+
+
+
+/* css for the call-to-action  */
+
+.call-to-action{
+  padding:105px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width:620px;
+  margin:auto;  
+}
+.call-to-action h2{
+  margin-bottom:28px;
+}
+.call-to-action p{
+  margin-bottom:28px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.call-to-action .btn{
+  background:#F5C03C;
+  color:black;
+}

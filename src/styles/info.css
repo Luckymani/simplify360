@@ -1,0 +1,68 @@
+.info-section{
+    padding:115px 0px;
+    position: relative;
+    overflow: visible;
+}
+.info-section .section-wrapper{
+    position: relative;
+    z-index: 1;
+}
+
+.info-section .info-container{
+    height:445px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-section .content-wrapper{
+    padding-right:100px;
+}
+
+.info-section h1{
+    margin-bottom:30px;
+}
+.info-section p{
+    font-size: 15px;
+}
+.info-section button{
+    margin-top:55px;
+    position: relative;
+}
+.info-section button svg{
+    position:absolute;
+    right:0;
+    top:50%;
+    transform: translate(110%,-85%);
+}
+.info-section .image-wrapper{
+    min-width:50%;
+    border-radius: 78.13px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.32) 100%);
+    text-align: center;
+}
+
+.info-section:nth-child(odd) .info-container{
+    flex-direction: row-reverse;
+}
+
+.section4 .image-wrapper{
+    min-width: 60%;
+}
+
+.background{
+    position: absolute;
+    width:1073px;
+    height:950px;
+    z-index: 0;
+}
+
+.info-section:nth-child(even) .background{
+    top:-5%;
+    right:-15%;
+}
+
+.info-section:nth-child(odd) .background{
+    top:-5%;
+    left:-15%;
+}
+

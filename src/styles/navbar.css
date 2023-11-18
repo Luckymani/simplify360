@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:38px 4%;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+.navbar .nav-links{
+    display: flex;
+    justify-content:center;
+}
+.navbar .nav-links li {
+    margin-right:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+.navbar .nav-links li .arrow-icon{
+    margin-left:5px;
+}
+.navbar .buttons-wrapper .btn-small{
+    margin-right:40px;
+}
+.buttons-wrapper .btn-small:nth-child(1){
+    background:var(--vilot-color)
+}
+.buttons-wrapper .btn-small:nth-child(2){
+    background:var(--red-color)
+}
