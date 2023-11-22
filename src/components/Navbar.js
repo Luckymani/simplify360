@@ -5,7 +5,7 @@ import '../styles/navbar.css';
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="logo-wrapper"><img src="/images/logo.png"></img></div>
+      <div className="logo-wrapper"><img src="images/logo.png"></img></div>
       <ul className="nav-links">
         <li>Products</li>
         <li>By Channel <IoIosArrowDown className="arrow-icon"/></li>

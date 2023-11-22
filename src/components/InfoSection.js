@@ -5,7 +5,7 @@ function InfoSection(props) {
   const { id, headding, para, image, color,bg} = props.values;
   return (
     <section className={`info-section ${id}`}>
-      <img className={`background ${id}-bg`} src={`/images/backgrounds/${bg}.svg`}></img>
+      <img className={`background ${id}-bg`} src={`images/backgrounds/${bg}.svg`}></img>
       <div className="section-wrapper">
         <div className="info-container">
           <div className="content-wrapper">
@@ -29,7 +29,7 @@ function InfoSection(props) {
           </div>
           <div className="image-wrapper">
             <img
-              src={`/images/sections/${image}.png`}
+              src={`images/sections/${image}.png`}
               alt="image goes here"
             ></img>
           </div>
